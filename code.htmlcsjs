@@ -1,0 +1,248 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Name - Portfolio</title>
+    <style>
+        /* Reset some default browser styles */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            color: #333;
+        }
+
+        /* Header and Navigation */
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 20px 0;
+        }
+
+        header .container {
+            width: 90%;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        header h1 {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        nav ul {
+            display: flex;
+            justify-content: center;
+            list-style-type: none;
+        }
+
+        nav ul li {
+            margin: 0 15px;
+        }
+
+        nav ul li a {
+            color: #fff;
+            text-decoration: none;
+            font-size: 18px;
+        }
+
+        nav ul li a:hover {
+            text-decoration: underline;
+        }
+
+        /* About Section */
+        #about {
+            padding: 40px 0;
+            background-color: #fff;
+        }
+
+        #about .container {
+            width: 90%;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        #about h2 {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        #about p {
+            text-align: center;
+            font-size: 18px;
+            line-height: 1.6;
+        }
+
+        /* Skills Section */
+        #skills {
+            padding: 40px 0;
+            background-color: #f9f9f9;
+        }
+
+        #skills .container {
+            width: 90%;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        #skills h2 {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        #skills ul {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            list-style-type: none;
+        }
+
+        #skills ul li {
+            margin: 10px 20px;
+            font-size: 18px;
+        }
+
+        /* Projects Section */
+        #projects {
+            padding: 40px 0;
+            background-color: #fff;
+        }
+
+        #projects .container {
+            width: 90%;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        #projects h2 {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        .project {
+            margin-bottom: 30px;
+        }
+
+        .project h3 {
+            font-size: 22px;
+            margin-bottom: 10px;
+        }
+
+        .project p {
+            font-size: 18px;
+        }
+
+        /* Contact Section */
+        #contact {
+            padding: 40px 0;
+            background-color: #f9f9f9;
+        }
+
+        #contact .container {
+            width: 90%;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        #contact h2 {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        #contact p {
+            text-align: center;
+            font-size: 18px;
+        }
+
+        #contact a {
+            color: #333;
+            text-decoration: none;
+        }
+
+        #contact a:hover {
+            text-decoration: underline;
+        }
+
+        /* Footer */
+        footer {
+            background-color: #333;
+            color: #fff;
+            padding: 20px 0;
+            text-align: center;
+        }
+
+        footer p {
+            font-size: 14px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Rickiraj Singh Sisodiya</h1>
+            <nav>
+                <ul>
+                    <li><a href="#about">About Me</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="about">
+        <div class="container">
+            <h2>About Me</h2>
+            <p>Hi! I'm Rickiraj Singh Sisodiya , a third-year student studying at Acropolis Institute Of Technology . I am passionate about [Your Interests], and I am constantly looking to learn and improve my skills in Css , Java Script and My Sql.</p>
+        </div>
+    </section>
+
+    <section id="skills">
+        <div class="container">
+            <h2>Skills</h2>
+            <ul>
+                <li>HTML & CSS</li>
+                <li>JavaScript</li>
+                <li>React.js</li>
+                <li>Node.js</li>
+                <li>Python</li>
+                <li>Git & GitHub</li>
+                <li>Database Management</li>
+            </ul>
+        </div>
+    </section>
+
+    <section id="projects">
+        <div class="container">
+            <h2>Projects</h2>
+            <div class="project">
+                <h3>Project 1: Savage Managment</h3>
+         
+            </div>
+           
+            
+          
+        </div>
+    </section>
+
+    <section id="contact">
+        <div class="container">
+            <h2>Contact</h2>
+            <p>You can reach me via email at: <a href="mailto:your.email@example.com">rickiraj220577@acropolis.in</a></p>
+            <p>Connect with me on <a href="https://www.linkedin.com/in/your-linkedin">LinkedIn</a></p>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Your Name. All rights reserved.</p>
+        </div>
+    </footer>
+
+</body></html>
